@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                ehco 'application has been built..'
+                echo 'application has been built..'
             }
         }
         stage('Test') {
